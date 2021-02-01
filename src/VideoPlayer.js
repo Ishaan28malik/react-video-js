@@ -1,3 +1,5 @@
+/* This file is not being used in the project as of now */
+
 import React from 'react';
 import videojs from 'video.js';
 
