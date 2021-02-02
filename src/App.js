@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './index.css';
-// import { Player, ControlBar, BigPlayButton } from 'video-react';
 import { Modal, Popover } from 'antd';
 import {
   CaretRightOutlined,
@@ -15,6 +14,8 @@ import 'antd/dist/antd.css';
 // import 'video.js/dist/video-js.min.css';
 import 'video.js/dist/video-js.css';
 
+/* CSS Bug not resolved
+
 // City
 import '@videojs/themes/dist/city/index.css';
 
@@ -26,6 +27,8 @@ import '@videojs/themes/dist/forest/index.css';
 
 // Sea
 import '@videojs/themes/dist/sea/index.css';
+
+*/
 import videojs from 'video.js';
 const content = (
   <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -93,8 +96,7 @@ export default function App() {
         <div data-vjs-player>
           <video
             id='my-player'
-            className='vjs-theme-forest'
-            // className='video-js vjs-big-play-centered'
+//             className='vjs-theme-forest'
             controls
             preload='auto'
             poster='https://images.unsplash.com/photo-1578116922645-3976907a7671?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80'
